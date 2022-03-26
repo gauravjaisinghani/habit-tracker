@@ -1,7 +1,7 @@
 import './styles/Login.css';
 
 function togglestate(props, data) {
-    alert('You are logged in!')
+    alert('You are now logged in!')
 }
 
 function Login() {
