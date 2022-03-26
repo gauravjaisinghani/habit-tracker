@@ -1,0 +1,16 @@
+.dashcontainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  p {
+    font-size: 1.2rem;
+    color: #4d4d4d;
+    margin: 0;
+  }
+  
+  hr {
+    width: 100%;
+    border-style: ridge;
+  }
