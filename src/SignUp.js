@@ -1,6 +1,7 @@
 import React, { useCallback } from "react";
 import { withRouter } from "react-router";
 import app from "./base";
+import { Link } from "react-router-dom";
 
 const SignUp = ({ history }) => {
   const handleSignUp = useCallback(async event => {
@@ -29,6 +30,7 @@ const SignUp = ({ history }) => {
           <input name="password" type="password" placeholder="Password" />
         </label>
         <button type="submit">Sign Up</button>
+        <Link to={"/login"}>Log in</Link>
       </form>
     </div>
   );
