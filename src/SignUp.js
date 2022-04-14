@@ -20,13 +20,13 @@ const SignUp = ({ history }) => {
 
   return (
     <div className= "authcontainer">
-      <h1>Sign up</h1>
+      <h1>Sign Up</h1>
       <form className="form" onSubmit={handleSignUp}>
           <input name="email" type="email" placeholder="Email" />
           <input name="password" type="password" placeholder="Password" />
         <button type="submit">Sign Up</button>
       </form>
-      <Link to={"/login"}>Log in</Link>
+      <p className="bottomline">Already have an account? <Link to={"/login"}>Log In</Link></p>
     </div>
   );
 };
