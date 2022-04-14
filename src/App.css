@@ -1,6 +1,0 @@
-.appcontainer {
-  display: flex;
-  justify-content: center;
-  padding: 2rem;
-  height: calc(100vh - 4rem);
-}
