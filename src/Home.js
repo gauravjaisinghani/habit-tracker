@@ -5,7 +5,7 @@ import app from "./base";
 
 function Dashboard() {
     return(
-        <div className="dashcontainer">
+      <div className="dashcontainer">
       <p>Dashboard</p>
       <hr></hr>
       <button onClick={() => app.auth().signOut()}>Sign out</button>

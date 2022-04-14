@@ -1,6 +1,7 @@
 import React, { useCallback } from "react";
 import { withRouter } from "react-router";
 import app from "./base";
+import './styles/Authstack.css';
 import { Link } from "react-router-dom";
 
 const SignUp = ({ history }) => {
@@ -18,20 +19,14 @@ const SignUp = ({ history }) => {
   }, [history]);
 
   return (
-    <div>
+    <div className= "authcontainer">
       <h1>Sign up</h1>
-      <form onSubmit={handleSignUp}>
-        <label>
-          Email
+      <form className="form" onSubmit={handleSignUp}>
           <input name="email" type="email" placeholder="Email" />
-        </label>
-        <label>
-          Password
           <input name="password" type="password" placeholder="Password" />
-        </label>
         <button type="submit">Sign Up</button>
-        <Link to={"/login"}>Log in</Link>
       </form>
+      <Link to={"/login"}>Log in</Link>
     </div>
   );
 };
