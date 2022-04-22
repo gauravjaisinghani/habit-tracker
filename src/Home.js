@@ -21,8 +21,9 @@ function Dashboard() {
         <div className='main'>
           <div className='navlist'>
             <ul>
-              <li></li>
-              <li></li>
+              <li>Section 1</li>
+              <li>Section 2</li>
+              <li>Section 3</li>
             </ul>
           </div>
           <div className='contentcontainer'></div>
